@@ -1,8 +1,8 @@
-# ABT AI Assistant
+# BAT AI Assistant
 
 A Windows desktop assistant for **Siemens ABT Site**, using the local **ABT Openness** service. Ask questions in plain language, inspect engineering data, prepare project changes, work with Excel points schedules and generate editable native graphics.
 
-[Download installer](https://github.com/timpendlebury/ABT-AI-Assistant-Releases/releases/latest) · [Release notes](https://github.com/timpendlebury/ABT-AI-Assistant-Releases/releases) · [Signature guidance](CODE_SIGNING.md) · [Disclaimer](DISCLAIMER.md)
+[Download installer](https://github.com/timpendlebury/BAT-AI-Assistant-Releases/releases/latest) · [Release notes](https://github.com/timpendlebury/BAT-AI-Assistant-Releases/releases) · [Signature guidance](CODE_SIGNING.md) · [Disclaimer](DISCLAIMER.md)
 
 ## Features and capabilities
 
@@ -49,12 +49,12 @@ Check for updates under **About & updates**; finish work, disconnect and close o
 
 Usage reporting is enabled after first-launch acknowledgement unless disabled by your saved preference or policy. You can turn it off under **Privacy & usage**.
 
-[Report an issue](https://github.com/timpendlebury/ABT-AI-Assistant-Releases/issues) without including credentials or customer/project data.
+[Report an issue](https://github.com/timpendlebury/BAT-AI-Assistant-Releases/issues) without including credentials or customer/project data.
 
 <details>
 <summary>Disclaimer and usage reporting</summary>
 
-> ABT AI Assistant is an independent, unofficial third-party tool developed in a personal capacity. It is not an official Siemens product and is not affiliated with, sponsored, endorsed or supported by Siemens AG or any other vendor or manufacturer. To the extent permitted by applicable law, the software is provided "as is", without warranty of any kind, express or implied. No ongoing support, updates or maintenance are promised. Use of the tool is at the user's own risk. Users should maintain appropriate project backups and independently review and validate all outputs and changes before applying them.
+> BAT AI Assistant is an independent, unofficial third-party tool developed in a personal capacity. It is not an official Siemens product and is not affiliated with, sponsored, endorsed or supported by Siemens AG or any other vendor or manufacturer. To the extent permitted by applicable law, the software is provided "as is", without warranty of any kind, express or implied. No ongoing support, updates or maintenance are promised. Use of the tool is at the user's own risk. Users should maintain appropriate project backups and independently review and validate all outputs and changes before applying them.
 >
 > Usage statistics apply only to releases that include usage reporting. On first launch of such a release, acknowledging this disclaimer enables reporting unless an existing reporting preference or administrator policy disables it. You can disable reporting at any time under Privacy & usage without losing access to the tool.
 >
