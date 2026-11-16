@@ -1,6 +1,6 @@
 # Verify and optionally trust T. Pendlebury's signed installer
 
-ABT AI Assistant versions 0.16.3 and later use a self-signed code-signing certificate. The
+BAT AI Assistant and its predecessor use a self-signed code-signing certificate starting with version 0.16.3. The
 publisher identity is asserted by its owner, not verified by a public
 certificate authority. You decide whether to trust it. Corporate PCs may
 require IT approval; trust for one account does not apply to every account or
@@ -24,7 +24,9 @@ alone do not establish identity.
 | Expiry, UTC | `2029-10-05 01:31:14` |
 
 After you have confirmed the fingerprint and chosen to trust the publisher,
-open PowerShell in the folder containing the .cer and installer. This block
+open PowerShell in the folder containing the .cer and installer. Enter the
+exact filename from your release. The first BAT AI Assistant package (version 0.20.7)
+uses `BATAIAssistant-stable-Setup.exe`. This block
 checks the public identity/profile, explicitly imports only that public
 certificate into the current user's Root and TrustedPublisher stores, and
 verifies the actual installer. Windows may show a trust confirmation; accept
@@ -35,7 +37,7 @@ $ErrorActionPreference = 'Stop'
 $ExpectedSha256 = '237BFA480A1489E23BAF28FF8A989F219DF6229FA59FA451D707C6D728919B13'
 $ExpectedThumbprint = 'A2BD4071D5153B7C0E8849A95F47937810C6BA37'
 $CerPath = (Resolve-Path -LiteralPath './T-Pendlebury-code-signing.cer').Path
-$InstallerPath = (Resolve-Path -LiteralPath './ABTAIAssistant-stable-Setup.exe').Path
+$InstallerPath = (Resolve-Path -LiteralPath (Read-Host 'Enter the downloaded Setup filename')).Path
 if ((Get-FileHash -LiteralPath $CerPath -Algorithm SHA256).Hash -cne $ExpectedSha256) { throw 'Certificate fingerprint mismatch. Stop.' }
 $Cert = [Security.Cryptography.X509Certificates.X509Certificate2]::new($CerPath)
 try {
