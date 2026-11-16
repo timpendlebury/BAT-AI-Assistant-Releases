@@ -2,6 +2,8 @@
 
 A Windows desktop assistant for **Siemens ABT Site**, using the local **ABT Openness** service. Ask questions in plain language, inspect engineering data, prepare project changes, work with Excel points schedules and generate editable native graphics.
 
+> BAT AI Assistant is an independent, unofficial third-party tool developed in a personal capacity. It is not an official Siemens product and is not affiliated with, sponsored, endorsed or supported by Siemens AG or any other vendor or manufacturer. To the extent permitted by applicable law, the software is provided "as is", without warranty of any kind, express or implied. No ongoing support, updates or maintenance are promised. Use of the tool is at the user's own risk. Users should maintain appropriate project backups and independently review and validate all outputs and changes before applying them.
+
 [Download installer](https://github.com/timpendlebury/BAT-AI-Assistant-Releases/releases/latest) · [Release notes](https://github.com/timpendlebury/BAT-AI-Assistant-Releases/releases) · [Signature guidance](CODE_SIGNING.md) · [Disclaimer](DISCLAIMER.md)
 
 ## Features and capabilities
